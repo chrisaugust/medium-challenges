@@ -133,9 +133,8 @@ class SimpleLinkedList
   end
 
   def reverse
-    array = self.to_a
-    reversed = SimpleLinkedList.new
-    array.each { |element| reversed.push(element) }
+    array = self.to_a.reverse
+    reversed = SimpleLinkedList.from_a(array)
     reversed
   end
 end
