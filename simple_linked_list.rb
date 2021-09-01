@@ -7,6 +7,7 @@
 # the next element in the list.
 #
 # Instance methods of SimpleLinkedList class:
+#   #head
 #   #push(element)
 #   #size
 #   #peek
@@ -19,7 +20,6 @@
 #   #to_a
 # 
 #  SimpleLinkedList class methods:
-#   ::new
 #   ::from_a(data)
 #
 # Element instance methods:
